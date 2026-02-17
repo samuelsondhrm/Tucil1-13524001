@@ -14,7 +14,6 @@ The solver implements a **Brute Force algorithm** to explore possible configurat
 * **Flexible Input:** Accepts puzzle configurations via:
     * **Text Files (.txt):** Character-based grid representation.
     * **Images (.png, .jpg):** Automatic color extraction from game screenshots using `Pillow`.
-* **Interactive Controls:** Includes a custom slider to define the grid size ($N$) when importing images.
 
 ## ⚙️ Setup & Installation
 
