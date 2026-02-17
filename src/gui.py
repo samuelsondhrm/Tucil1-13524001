@@ -237,7 +237,7 @@ class MainWindow(QMainWindow):
         if success:
             self.lbl_status.setText("SOLUSI DITEMUKAN!")
             self.lbl_status.setStyleSheet("color: green; font-size: 14px;")
-            QMessageBox.information(self, "Success", f"Selesai dalam {duration_ms:.2f} ms!")
+            QMessageBox.information(self, "Success", f"Selesai dalam {duration_ms:.2f} ms dengan iterasi sebanyak {iterations} kali")
         else:
             self.lbl_status.setText("TIDAK ADA SOLUSI")
             self.lbl_status.setStyleSheet("color: red; font-size: 14px;")
