@@ -6,7 +6,7 @@
 
 This project is a desktop application designed to solve the "Queens" puzzle (available on LinkedIn). The goal of the game is to place one queen in each row, column, and colored region without any two queens touching (orthogonally or diagonally).
 
-The solver implements a **Brute Force algorithm (Recursive Backtracking)** to explore possible configurations and find a valid solution.
+The solver implements a **Brute Force algorithm** to explore possible configurations and find a valid solution.
 
 ### Key Features & Technologies:
 * **GUI with PyQt5:** A user-friendly graphical interface built with PyQt5.
@@ -14,7 +14,6 @@ The solver implements a **Brute Force algorithm (Recursive Backtracking)** to ex
 * **Flexible Input:** Accepts puzzle configurations via:
     * **Text Files (.txt):** Character-based grid representation.
     * **Images (.png, .jpg):** Automatic color extraction from game screenshots using `Pillow`.
-* **Interactive Controls:** Includes a custom slider to define the grid size ($N$) when importing images.
 
 ## ⚙️ Setup & Installation
 
@@ -22,8 +21,8 @@ To ensure the program runs correctly, it is recommended to use a virtual environ
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/samuelsondhrm/tucil1-13524001.git](https://github.com/samuelsondhrm/tucil1-13524001.git)
-cd tucil1-13524001
+git clone [https://github.com/samuelsondhrm/Tucil1_13524001.git](https://github.com/samuelsondhrm/Tucil1_13524001.git)
+cd Tucil1_13524001
 ```
 
 ### 2. Create a Virtual Environment (venv)
