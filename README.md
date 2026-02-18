@@ -13,7 +13,7 @@ The solver implements a **Brute Force algorithm** to explore possible configurat
 * **MultiThreading:** Implements `QThread` to run the heavy algorithmic processing on a separate thread. This prevents the GUI from freezing and enables a smooth **Live Visualization** of the backtracking process.
 * **Flexible Input:** Accepts puzzle configurations via:
     * **Text Files (.txt):** Character-based grid representation.
-    * **Images (.png, .jpg):** Automatic color extraction from game screenshots using `Pillow`.
+    * **Images (.png, .jpg):** Automatic color extraction based on the user's input using `Pillow`.
 
 ## ⚙️ Setup & Installation
 
